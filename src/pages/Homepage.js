@@ -1,0 +1,13 @@
+import React from 'react';
+import ProductListing from '../features/product-listing';
+
+import data from '../data/products.json';
+
+export default function Homepage() {
+    return (
+        <div>
+            <h1>Home Page</h1>
+            <ProductListing products={data.products}/>
+        </div>
+    )
+}
